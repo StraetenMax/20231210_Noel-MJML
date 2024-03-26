@@ -1,0 +1,136 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" />
+            <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"/>
+            <mj-class name="d-section" background-color="#fff" width="600px" padding="0px" />
+            <mj-class name="d-titre" padding="3px 50px 14px 60px" font-family="Montserrat,sans-serif" font-size="58px" line-height="58px" color="#BD1622"/>
+            <mj-class name="d-sous-titre" padding-top="3px" padding-bottom="3px" font-family="Montserrat,sans-serif" font-size="36px" line-height="36px" color="#BD1622"/>
+            <mj-class name="d-sous-titre-black" padding-top="30px" padding-bottom="3px" font-family="Montserrat,sans-serif" font-size="20px" line-height="20px" color="#141414"/>
+            <mj-class name="d-sur-titre" font-family="Montserrat,sans-serif" align="center" font-size="20px" font-weight="400" line-height="20px" color="#BD1622" text-transform="uppercase"/>
+            <mj-class name="d-text" padding="6px 60px" font-family="Roboto,Arial,sans-serif" align="left" font-size="16px" line-height="20px" color="#141414"/>
+            <mj-class name="d-admin" padding="5px" font-family="Roboto,Arial,sans-serif" align="center" font-size="12px" line-height="14px" font-weight="400" color="#626262" />
+        </mj-attributes>
+        <mj-style>
+            @media(max-width:480px){
+                .m-sur-titre{
+                    font-size:13px !important;
+                    line-height:13px !important;
+                    padding:2px 0px !important;
+                }
+                .m-padding{
+                    padding:4px 15px !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#FAFAFA">
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text mj-class="d-admin">
+                    Si tu ne parviens pas à lire cet e-mail, clique <a style="color:#BD1622;text-decoration:none;" href="{{ mirror }}">ici</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="d-section">
+            <mj-column>
+                <mj-image href="https://supveto.com" padding="0" src="images/letEmailling_01.jpg" target="_blank" alt="Affiche du jeu-concours Photo de Noël 2023"/>
+            </mj-column>
+        </mj-section>
+        <!--Element-->
+        <mj-section mj-class="d-section">
+            <mj-group>
+            <mj-column width="50%">
+                <mj-text mj-class="d-sur-titre" padding-bottom="2px">
+                    <div class="m-sur-titre">cartes cadeaux</div>
+                </mj-text>
+                <mj-text mj-class="d-sur-titre" padding-top="2px">
+                   <div class="m-sur-titre"> à gagner</div>
+                </mj-text>
+            </mj-column>
+            <mj-column width="50%">
+                <mj-text mj-class="d-sur-titre" padding-bottom="2px">
+                    <div class="m-sur-titre">à envoyer</div>
+                </mj-text>
+                <mj-text mj-class="d-sur-titre" padding-top="2px">
+                    <div class="m-sur-titre">avant le 07 janvier</div>
+                </mj-text>
+            </mj-column>
+            </mj-group>
+        </mj-section>
+        <!--titre-->
+        <mj-section mj-class="d-section">
+            <mj-column>
+                <mj-text align="center" mj-class="d-sous-titre-black" text-transform="uppercase" font-weight="900" css-class="m-padding">
+                   Dernière opportunité pour
+                </mj-text>
+                <mj-text align="center" mj-class="d-sous-titre" text-transform="uppercase" font-weight="300" css-class="m-padding">
+                   le Jeu concours
+                </mj-text>
+                <mj-text align="center" mj-class="d-titre" text-transform="uppercase" font-weight="900" css-class="m-padding">
+                Photo de Noël
+                </mj-text>
+            </mj-column>
+            </mj-section>
+            <mj-section mj-class="d-section" padding-bottom="30px">
+            <mj-group>
+            <mj-column width="50%">
+                <mj-image align="right" padding-right="2px" src="images/letEmailling_04.jpg" width="30px" alt="icon appareil photographique" />
+            </mj-column>
+            <mj-column width="50%">
+                <mj-text align="left" padding-left="2px" text-transform="uppercase" font-weight="900" font-size="25px" color="#BD1622">
+                    2023
+                </mj-text>
+            </mj-column>
+            </mj-group>    
+        </mj-section>
+                <!--texte Principal-->
+        <mj-section mj-class="d-section">
+            <mj-column>
+                <mj-text mj-class="d-text" css-class="m-padding">
+                <b>Un cliché festif</b> pour divertir le bon vieux Père Noël et réjouir son troupeau de rennes !
+                </mj-text>
+                <mj-text mj-class="d-text" css-class="m-padding">
+                <b>Il est encore temps de faire passer ton petit protégé à la postérité…</b> Profite de cette période de fêtes pour déguiser ton animal préféré, le prendre en photo <i>(avec ou sans toi)</i> et lui donner ainsi toute la place qu’il mérite.
+                </mj-text>
+                <mj-text mj-class="d-text" css-class="m-padding">
+                <b>Une seule contrainte :</b> de l’humour, encore de l’humour et toujours de l’humour. C’est le moins que tu puisses faire pour mettre à l’honneur ton complice de tous les instants… dans le respect et la convivialité !
+                </mj-text>
+                <mj-text mj-class="d-text" css-class="m-padding">
+                <b>Alors {{ contact.PRENOM }},</b> pour ce clin d’œil festif et délirant, envoie très vite ta photo <i>(1 photo par candidat)</i> à :
+                <a style="color:#BD1622;text-decoration:none;" href="mailto:concours.national.noel@supveto.com">concours.national.noel@supveto.com</a> avec ton nom, prénom et l'école dont tu dépends <i>(obligatoire)</i>.
+                </mj-text>
+                </mj-column>
+                </mj-section>
+                <!--Signature-->
+        <mj-section mj-class="d-section" padding-top="35px" padding-bottom="45px">
+            <mj-column>
+                <mj-image href="https://supveto.com" src="images/letEmailling_08.jpg" padding="0px" width="250px" target="_blank" alt="Logo SupVéto" />
+                <mj-text padding="2px 0px" align="center" font-size="13px" color="#696969">
+                  17 des Ursulines - 59200 TOURCOING
+                </mj-text>
+                <mj-text padding="2px" align="center"  font-size="13px" color="#696969">
+                   03.20.70.06.06
+                </mj-text>
+                <mj-social padding-top="10px" align="center" icon-size="35px" mode="horizontal">
+                    <mj-social-element background-color="#07663a" padding-right="20px" name="facebook" href="https://www.facebook.com/supvetonational"></mj-social-element>
+                    <mj-social-element background-color="#07663a" padding-left="20px" name="instagram" href="https://www.instagram.com/supveto.france/"></mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+            <mj-text mj-class="d-admin" line-height="14px">
+                Cet email a été envoyé à <span style="color:#BD1622;text-decoration:none;">{{contact.EMAIL}}</span>,<br>
+                 tu l'as reçu car tu suis la formation SUPVETO.
+            </mj-text>
+            <mj-text mj-class="d-admin" >
+                <a style="color:#BD1622;text-decoration:none;" href="{{ unsubscribe }}">Se désinscrire</a>
+</mj-text>
+<mj-text mj-class="d-admin">
+©2023 SUPVETO
+            </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
