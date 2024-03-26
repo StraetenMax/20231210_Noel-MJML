@@ -11,6 +11,7 @@
             <mj-class name="d-text" padding="6px 60px" font-family="Roboto,Arial,sans-serif" align="left" font-size="16px" line-height="20px" color="#141414"/>
             <mj-class name="d-admin" padding="5px" font-family="Roboto,Arial,sans-serif" align="center" font-size="12px" line-height="14px" font-weight="400" color="#626262" />
         </mj-attributes>
+        <mj-title>Relance jeux concours de Noël 2023</mj-title>
         <mj-style>
             @media(max-width:480px){
                 .m-sur-titre{
@@ -34,7 +35,7 @@
         </mj-section>
         <mj-section mj-class="d-section">
             <mj-column>
-                <mj-image href="https://supveto.com" padding="0" src="images/letEmailling_01.jpg" target="_blank" alt="Affiche du jeu-concours Photo de Noël 2023"/>
+                <mj-image href="https://supveto.com" padding="0" src="src/images/letEmailling_01.jpg" target="_blank" alt="Affiche du jeu-concours Photo de Noël 2023"/>
             </mj-column>
         </mj-section>
         <!--Element-->
@@ -75,7 +76,7 @@
             <mj-section mj-class="d-section" padding-bottom="30px">
             <mj-group>
             <mj-column width="50%">
-                <mj-image align="right" padding-right="2px" src="images/letEmailling_04.jpg" width="30px" alt="icon appareil photographique" />
+                <mj-image align="right" padding-right="2px" src="src/images/letEmailling_04.jpg" width="30px" alt="icon appareil photographique" />
             </mj-column>
             <mj-column width="50%">
                 <mj-text align="left" padding-left="2px" text-transform="uppercase" font-weight="900" font-size="25px" color="#BD1622">
@@ -105,7 +106,7 @@
                 <!--Signature-->
         <mj-section mj-class="d-section" padding-top="35px" padding-bottom="45px">
             <mj-column>
-                <mj-image href="https://supveto.com" src="images/letEmailling_08.jpg" padding="0px" width="250px" target="_blank" alt="Logo SupVéto" />
+                <mj-image href="https://supveto.com" src="src/images/letEmailling_08.jpg" padding="0px" width="250px" target="_blank" alt="Logo SupVéto" />
                 <mj-text padding="2px 0px" align="center" font-size="13px" color="#696969">
                   17 des Ursulines - 59200 TOURCOING
                 </mj-text>
